@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试/临时
+*_test*.py
+_*.py
+test_*.mp4
+agnes_video*.mp4
+*.tmp
+
+# 敏感数据
+*.key
+.env
+config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# PyInstaller
+build/
+dist/
+*.spec

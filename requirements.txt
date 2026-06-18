@@ -1,0 +1,6 @@
+# Agnes Video Studio 依赖清单
+PySide6>=6.6,<7       # Qt6 GUI 框架（含 QtMultimedia 视频播放）
+httpx>=0.27           # HTTP 客户端
+Pillow>=10            # 图片处理（首帧 Data URI）
+qtawesome>=1.3        # FontAwesome 图标
+platformdirs>=4       # 跨平台用户数据目录
